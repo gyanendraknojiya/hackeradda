@@ -88,6 +88,28 @@ left: 48%;
       transform: scale(1.0); 
     } 
   }
+/* ---------------------------------- logo ---------------------------- */
+.logo{
+  position: absolute;
+  top: 5%;
+  width: 100%;
+  text-align: center;
+}
+.logo img {
+  height: 200px;
+  width: auto;
+  z-index: 7;
+  animation: logo-animation 1s ease-in-out infinite;
+}
+
+@keyframes logo-animation{
+  0% {filter: drop-shadow(0 0 10px #2cceff);}
+  20% {filter: drop-shadow(0 0 10px #56ff2c);}
+  40% {filter: drop-shadow(0 0 10px #ff792c);}
+  60% {filter: drop-shadow(0 0 10px #302cff);}
+  80% {filter: drop-shadow(0 0 10px #ff2c2c);}
+  100% {filter: drop-shadow(0 0 10px #ed2cff);}
+}
 
 .main video {
   height: 700px;
@@ -97,6 +119,7 @@ left: 48%;
   text-align: center;
   transform: translateY(-50%);
   animation: makevisible 1s linear;
+  z-index: -1;
 }
 
 @keyframes makevisible{
@@ -209,3 +232,4 @@ left: 48%;
   0% { opacity: 0; transform: translateY(100px);}
   100% { opacity: 1; transform: translateY(0px);}
 }
+
