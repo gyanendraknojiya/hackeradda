@@ -96,6 +96,13 @@ left: 48%;
   top: 50%;
   text-align: center;
   transform: translateY(-50%);
+  animation: makevisible 1s linear;
+}
+
+@keyframes makevisible{
+  0% {opacity: 0;}
+  99% {opacity: 0;}
+  100% {opacity: 1;}
 }
 
 .main .text {
@@ -108,42 +115,40 @@ left: 48%;
   width: 100%;
   text-align: center;
   transform: translateY(-50%);
-  letter-spacing: -20px;
+  letter-spacing: -30px;
 }
 
 .text span {
 	opacity: 0;
   display: inline-block;
-  box-shadow: 0 0 5 ;
-  
 }
 .text span:nth-child(1){
   animation: animate 1s forwards;
-  animation-delay: .2s;
+  animation-delay: 1s;
 }
 .text span:nth-child(2){
 	animation: animate 1s forwards;
-	animation-delay: .6s;
+	animation-delay: 1.2s;
 }
 .text span:nth-child(3){
 	animation: animate 1s forwards;
-	animation-delay: 1s;
+	animation-delay: 1.5s;
 }
 .text span:nth-child(4){
 	animation: animate 1s forwards;
-	animation-delay: 1.3s;
+	animation-delay: 1.8s;
 }
 .text span:nth-child(5){
 	animation: animate 1s forwards;
-	animation-delay: 1.7s;
+	animation-delay: 2.2s;
 }
 .text span:nth-child(6){
 	animation: animate 1s forwards;
-	animation-delay: 2s;
+	animation-delay: 2.5s;
 }
 .text span:nth-child(7){
 	animation: animate 1s forwards;
-	animation-delay: 2.5s;
+	animation-delay: 2.8s;
 }
 .text span:nth-child(8){
 	animation: animate 1s forwards;
@@ -163,15 +168,15 @@ left: 48%;
 }
 .text span:nth-child(12){
 	animation: animate 1s forwards;
-	animation-delay: 4.2s;
+	animation-delay: 4s;
 }
 .text span:nth-child(13){
 	animation: animate 1s forwards;
-	animation-delay: 4.5s;
+	animation-delay: 4.3s;
 }
 .text span:nth-child(14){
 	animation: animate 1s forwards;
-	animation-delay: 5s;
+	animation-delay: 4.6s;
 }
 
 @keyframes animate {
@@ -183,4 +188,24 @@ left: 48%;
     transform: rotateY(0deg);
     opacity: 1;
   }
+}
+
+.coming-soon{
+  color: #fa7d09;
+  z-index: 10;
+  font-family: 'Ailerons';
+  position: absolute;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  bottom: 5%;
+  font-size: 30px;
+  opacity: 0;
+  animation: coming-soon 1s forwards;
+  animation-delay: 5s;
+}
+
+@keyframes coming-soon{
+  0% { opacity: 0; transform: translateY(100px);}
+  100% { opacity: 1; transform: translateY(0px);}
 }

@@ -35,14 +35,18 @@
         <span>O</span>
         <span>M</span>
       </div>
-      <video id="myVideo" src="./assets/smoke.mp4" autoplay muted></video>
+      <video id="myVideo" src="./assets/smoke.mp4"  muted></video>
     </div>
+    <div class="coming-soon">Coming Soon...</div>
 
     <script>
      var preloader = document.getElementById('preloader');
      window.addEventListener('load', function(){
        preloader.style.display ='none';
      })
+     setTimeout(function(){
+  document.getElementById("myVideo").play();
+}, 1000);
     </script>
   </body>
 </html>
