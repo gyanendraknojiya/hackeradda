@@ -6,6 +6,18 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
+    <div class="spinner-wrapper" id="preloader">
+      <div class="spinner" id="spinner">
+        <div class="sk-chase">
+          <div class="sk-chase-dot"></div>
+          <div class="sk-chase-dot"></div>
+          <div class="sk-chase-dot"></div>
+          <div class="sk-chase-dot"></div>
+          <div class="sk-chase-dot"></div>
+          <div class="sk-chase-dot"></div>
+        </div>
+      </div>
+    </div>
     <div class="main">
       <div class="text">
         <span>H</span>
@@ -23,13 +35,14 @@
         <span>O</span>
         <span>M</span>
       </div>
-      <video id="myVideo" src="./assets/smoke.mp4" muted></video>
+      <video id="myVideo" src="./assets/smoke.mp4" autoplay muted></video>
     </div>
 
     <script>
-      setTimeout(function () {
-        document.getElementById("myVideo").play();
-      }, 2000);
+     var preloader = document.getElementById('preloader');
+     window.addEventListener('load', function(){
+       preloader.style.display ='none';
+     })
     </script>
   </body>
 </html>
