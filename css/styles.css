@@ -143,35 +143,35 @@ left: 48%;
 }
 .text span:nth-child(7){
 	animation: animate 1s forwards;
-	animation-delay: 2.3s;
+	animation-delay: 2.5s;
 }
 .text span:nth-child(8){
 	animation: animate 1s forwards;
-	animation-delay: 2.5s;
+	animation-delay: 3s;
 }
 .text span:nth-child(9){
 	animation: animate 1s forwards;
-	animation-delay: 2.8s;
+	animation-delay: 3.3s;
 }
 .text span:nth-child(10){
 	animation: animate 1s forwards;
-	animation-delay: 3.2s;
+	animation-delay: 3.6s;
 }
 .text span:nth-child(11){
 	animation: animate 1s forwards;
-	animation-delay: 3.6s;
+	animation-delay: 3.8s;
 }
 .text span:nth-child(12){
 	animation: animate 1s forwards;
-	animation-delay: 4s;
+	animation-delay: 4.2s;
 }
 .text span:nth-child(13){
 	animation: animate 1s forwards;
-	animation-delay: 4.2s;
+	animation-delay: 4.5s;
 }
 .text span:nth-child(14){
 	animation: animate 1s forwards;
-	animation-delay: 4.5s;
+	animation-delay: 5s;
 }
 
 @keyframes animate {
