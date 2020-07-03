@@ -16,7 +16,7 @@
 
 body {
   height: 100vh;
-  background-color: black;
+  background-color: #010001;
 }
 
 .spinner-wrapper {
@@ -168,15 +168,15 @@ left: 48%;
 }
 .text span:nth-child(12){
 	animation: animate 1s forwards;
-	animation-delay: 4s;
+	animation-delay: 4.2s;
 }
 .text span:nth-child(13){
 	animation: animate 1s forwards;
-	animation-delay: 4.3s;
+	animation-delay: 4.8s;
 }
 .text span:nth-child(14){
 	animation: animate 1s forwards;
-	animation-delay: 4.6s;
+	animation-delay: 5.2s;
 }
 
 @keyframes animate {
