@@ -118,7 +118,8 @@ left: 48%;
   top: 50%;
   text-align: center;
   transform: translateY(-50%);
-  animation: makevisible 1s linear;
+  opacity: 0;
+  animation: makevisible 2s forwards;
   z-index: -1;
 }
 
@@ -131,7 +132,7 @@ left: 48%;
 .main .text {
   color: white;
   font-family: "Ailerons";
-  font-size: 100px;
+  font-size: 90px;
   position: absolute;
   top: 50%;
   z-index: 5;
@@ -146,60 +147,60 @@ left: 48%;
   display: inline-block;
 }
 .text span:nth-child(1){
-  animation: animate 1s forwards;
-  animation-delay: 1s;
+  animation: animate 2s forwards;
+  animation-delay: 1.8s;
 }
 .text span:nth-child(2){
-	animation: animate 1s forwards;
-	animation-delay: 1.2s;
+	animation: animate 2s forwards;
+	animation-delay: 2s;
 }
 .text span:nth-child(3){
-	animation: animate 1s forwards;
-	animation-delay: 1.5s;
+	animation: animate 1.5s forwards;
+	animation-delay: 2.3s;
 }
 .text span:nth-child(4){
-	animation: animate 1s forwards;
-	animation-delay: 1.8s;
-}
-.text span:nth-child(5){
-	animation: animate 1s forwards;
-	animation-delay: 2.2s;
-}
-.text span:nth-child(6){
-	animation: animate 1s forwards;
-	animation-delay: 2.5s;
-}
-.text span:nth-child(7){
-	animation: animate 1s forwards;
+	animation: animate 1.5s forwards;
 	animation-delay: 2.8s;
 }
-.text span:nth-child(8){
-	animation: animate 1s forwards;
-	animation-delay: 3s;
+.text span:nth-child(5){
+	animation: animate 1.5s forwards;
+	animation-delay: 3.2s;
 }
-.text span:nth-child(9){
-	animation: animate 1s forwards;
-	animation-delay: 3.3s;
+.text span:nth-child(6){
+	animation: animate 1.5s forwards;
+	animation-delay: 3.5s;
 }
-.text span:nth-child(10){
-	animation: animate 1s forwards;
-	animation-delay: 3.6s;
-}
-.text span:nth-child(11){
-	animation: animate 1s forwards;
+.text span:nth-child(7){
+	animation: animate 1.5s forwards;
 	animation-delay: 3.8s;
 }
-.text span:nth-child(12){
-	animation: animate 1s forwards;
-	animation-delay: 4.2s;
+.text span:nth-child(8){
+	animation: animate 1.5s forwards;
+	animation-delay: 4s;
 }
-.text span:nth-child(13){
-	animation: animate 1s forwards;
+.text span:nth-child(9){
+	animation: animate 1.5s forwards;
+	animation-delay: 4.3s;
+}
+.text span:nth-child(10){
+	animation: animate 1.5s forwards;
+	animation-delay: 4.6s;
+}
+.text span:nth-child(11){
+	animation: animate 1.5s forwards;
 	animation-delay: 4.8s;
 }
-.text span:nth-child(14){
-	animation: animate 1s forwards;
+.text span:nth-child(12){
+	animation: animate 1.5s forwards;
 	animation-delay: 5.2s;
+}
+.text span:nth-child(13){
+	animation: animate 1.5s forwards;
+	animation-delay: 5.4s;
+}
+.text span:nth-child(14){
+	animation: animate 1.5s forwards;
+	animation-delay: 5.6s;
 }
 
 @keyframes animate {
