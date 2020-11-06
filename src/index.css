@@ -1,13 +1,26 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  line-height: 1.5rem;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  margin: 0;
+  padding: 0;
+  line-height: 1.5rem;
+}
+
+@font-face {
+  font-family: "Ailerons";
+  src: url("./fonts/Ailerons.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/Aileronsd41d.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("./fonts/Ailerons.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("./fonts/Ailerons.woff") format("woff"),
+    /* Pretty Modern Browsers */ url("./fonts/Ailerons.ttf") format("truetype"),
+    /* Safari, Android, iOS */ url("./fonts/Ailerons.svg#Ailerons")
+      format("svg"); /* Legacy iOS */
+}
+
+.cursor-pointer{
+  cursor:pointer
 }

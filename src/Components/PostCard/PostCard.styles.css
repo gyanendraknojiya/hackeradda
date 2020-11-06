@@ -1,0 +1,6 @@
+.PostCard{
+    min-height: 370px;
+    background-color: black;
+    border-radius: 10px;
+    margin: 20px;
+}

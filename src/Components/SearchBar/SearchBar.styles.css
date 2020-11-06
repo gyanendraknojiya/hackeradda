@@ -1,0 +1,23 @@
+
+.searchBar input{
+    background-color: black;
+    border: 0;
+    color: white;
+    font-weight: 500;
+  }
+  
+  .searchBar input:focus{
+    background-color: black;
+    border: 0;
+    color: white;
+    font-weight: 500;
+    box-shadow: none;
+  }
+  
+  .searchBar select{
+    box-shadow: none;
+  }
+  
+  .searchBar select:focus{
+    box-shadow: none;
+  }

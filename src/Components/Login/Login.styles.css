@@ -1,0 +1,85 @@
+.login-display{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    height: 100%;
+}
+
+.login-box{
+    width: 100%;
+    margin: auto;
+}
+
+.form-group{
+    position: relative;
+    margin: 30px;
+    margin-top: 20px;
+}
+.login-box label{
+    font-size: 14px;
+}
+.login-box input{
+    background: none;
+    background-color: transparent;
+    color: #c4c4c4;
+    font-size: 15px;
+    display: block;
+    width: 100%;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid white;
+    height: 25px;
+}
+.login-box input:focus{
+    box-shadow: none;
+    border: 0;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #c4c4c4;
+    outline: none;
+    height: 35px;
+}
+.login-btn{
+    cursor: pointer;
+    width: 100%;
+    border-radius: 15px !important;
+}
+.github-login{
+    background-color: #0f0f0f !important;
+    color: white !important;
+}
+.hr-line{
+    margin-top: 25px;
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+.signup-btn{
+    cursor: pointer;
+    color: #f0ff6c !important;
+    font-size: 15px !important;
+    font-weight: 500 !important;
+}
+.sign-up-text{
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+@media(max-width: 768px){
+    .login-box label{
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 768px){
+    .btn{
+        height: 28px;
+        font-size: 12px !important;
+    }
+    .form-group{
+        position: relative;
+        margin: 20px;
+    }
+}
