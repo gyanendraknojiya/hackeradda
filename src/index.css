@@ -24,3 +24,8 @@ body{
 .cursor-pointer{
   cursor:pointer
 }
+
+.text-link, .text-link:hover {
+  color: inherit;
+  text-decoration: inherit;
+}

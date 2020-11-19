@@ -16,7 +16,7 @@ const Homepage = () => {
         style={{ height: "100vh", overflowY: "scroll" }}
       >
         <div>
-          <Header />
+          <Header  active="home"  />
         </div>
         <SearchBar />
         <PostCardWrapper />

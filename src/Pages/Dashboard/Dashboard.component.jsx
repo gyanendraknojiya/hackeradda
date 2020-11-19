@@ -25,7 +25,7 @@ const Dashboard = ({ ...props }) => {
 	return (
 		<div className="Dashboard vh-100 overflow-hidden">
 			<div className="shadow border-bottom">
-				<Header />
+				<Header active="dashboard" />
 			</div>
 			<div className="row m-0">
 				{/* ---------------------------------------------------- Side Menu ---------------------------------------------------- */}
