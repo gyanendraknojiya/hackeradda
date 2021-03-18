@@ -23,7 +23,7 @@ const RegisterPage = () => {
     setShowSignup(true);
   };
 
-  const handleFidePopup = () => {
+  const handleHidePopup = () => {
     setShowSignupPopup(false);
     setShowLoginPopup(false);
     setShowSignup(false);
@@ -67,7 +67,7 @@ const RegisterPage = () => {
 
           {showSignupPopup && showSignup && (
             <div className="register-popup-box">
-              <span className="hide-popup" onClick={handleFidePopup}>
+              <span className="hide-popup cursor-pointer" onClick={handleHidePopup}>
                 X
               </span>
               <SignupPage handleSignupPopup={handleSignupPopup} />
@@ -75,7 +75,7 @@ const RegisterPage = () => {
           )}
           {showLoginPopup && !showSignup && (
             <div className="register-popup-box">
-              <span className="hide-popup" onClick={handleFidePopup}>
+              <span className="hide-popup" onClick={handleHidePopup}>
                 X
               </span>{" "}
               <LoginPage handleLoginPopup={handleLoginPopup} />

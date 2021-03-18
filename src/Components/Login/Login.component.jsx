@@ -58,7 +58,7 @@ const LoginPage = ({ handleLoginPopup }) => {
                 type="email"
                 name="email"
                 className="form-control"
-                autoFocus
+                // autoFocus
                 autoComplete="off"
                 onChange={handleFormChange}
               />

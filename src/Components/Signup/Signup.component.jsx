@@ -81,7 +81,7 @@ const SignupPage = ({ handleSignupPopup }) => {
                   type="text"
                   name="fName"
                   className="form-control"
-                  autoFocus
+                  // autoFocus
                   autoComplete="off"
                   onChange={handleFormChange}
                 />
